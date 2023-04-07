@@ -1,0 +1,11 @@
+{
+  "content_scripts": [
+    {
+      "js": ["bLUE.js"],
+      "matches": ["https://lue.websight.blue/*", "https://websight.blue/*"]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "bLUE embed",
+  "version": "0.0.1"
+}
